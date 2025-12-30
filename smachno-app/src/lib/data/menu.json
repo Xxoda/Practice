@@ -1,0 +1,160 @@
+{
+  "categories": [
+    {
+      "id": "pizza",
+      "name": "Пицца",
+      "image": "/images/pizza.png",
+      "subtitle": "от 450 ₽"
+    },
+    {
+      "id": "rolls",
+      "name": "Роллы",
+      "image": "/images/rolls.png",
+      "subtitle": "от 320 ₽"
+    },
+    {
+      "id": "burgers",
+      "name": "Бургеры",
+      "image": "/images/burger.png",
+      "subtitle": "от 390 ₽"
+    },
+    {
+      "id": "soups",
+      "name": "Супы",
+      "image": "/images/soup.png",
+      "subtitle": "от 250 ₽"
+    },
+    {
+      "id": "salads",
+      "name": "Салаты",
+      "image": "/images/salad.png",
+      "subtitle": "от 300 ₽"
+    },
+    {
+      "id": "drinks",
+      "name": "Напитки",
+      "image": "/images/drink.png",
+      "subtitle": "от 90 ₽"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "p1",
+      "categoryId": "pizza",
+      "name": "Пепперони",
+      "description": "Классическая пицца с пикантной пепперони и моцареллой.",
+      "price": 550,
+      "weight": "450 г",
+      "image": "/images/pepperoni.jpg",
+      "tags": ["Хит"],
+      "available": true,
+      "modifiers": {
+        "size": {
+          "S": 0,
+          "M": 150,
+          "L": 300
+        },
+        "cheese": true,
+        "sauce": true
+      }
+    },
+    {
+      "id": "p2",
+      "categoryId": "pizza",
+      "name": "Маргарита",
+      "description": "Томатный соус, моцарелла, базилик.",
+      "price": 450,
+      "weight": "400 г",
+      "image": "/images/margarita.jpg",
+      "tags": ["Веган"],
+      "available": true,
+      "modifiers": {
+        "size": {
+          "S": 0,
+          "M": 120,
+          "L": 250
+        }
+      }
+    },
+    {
+      "id": "r1",
+      "categoryId": "rolls",
+      "name": "Филадельфия",
+      "description": "Лосось, сливочный сыр, огурец, рис.",
+      "price": 690,
+      "weight": "250 г",
+      "image": "/images/phila.jpg",
+      "tags": ["Хит"],
+      "available": true
+    },
+    {
+      "id": "r2",
+      "categoryId": "rolls",
+      "name": "Калифорния",
+      "description": "Снежный краб, авокадо, огурец, икра тобико.",
+      "price": 590,
+      "weight": "230 г",
+      "image": "/images/cali.jpg",
+      "tags": [],
+      "available": true
+    },
+    {
+      "id": "b1",
+      "categoryId": "burgers",
+      "name": "Чизбургер",
+      "description": "Сочная котлета из говядины, чеддер, маринованный огурец.",
+      "price": 390,
+      "weight": "300 г",
+      "image": "/images/cheeseburger.jpg",
+      "tags": [],
+      "available": true,
+      "spiciness": 0
+    },
+    {
+      "id": "b2",
+      "categoryId": "burgers",
+      "name": "Острый Бургер",
+      "description": "Говядина, халапеньо, острый соус.",
+      "price": 450,
+      "weight": "320 г",
+      "image": "/images/spicyburger.jpg",
+      "tags": ["Острое"],
+      "available": true,
+      "spiciness": 2
+    },
+    {
+      "id": "s1",
+      "categoryId": "soups",
+      "name": "Том Ям",
+      "description": "Тайский суп с креветками и кокосовым молоком.",
+      "price": 490,
+      "weight": "350 мл",
+      "image": "/images/tomyam.jpg",
+      "tags": ["Острое", "Хит"],
+      "available": true,
+      "spiciness": 3
+    },
+    {
+      "id": "sl1",
+      "categoryId": "salads",
+      "name": "Цезарь с курицей",
+      "description": "Романо, куриное филе, пармезан, сухарики, соус цезарь.",
+      "price": 420,
+      "weight": "200 г",
+      "image": "/images/caesar.jpg",
+      "tags": [],
+      "available": true
+    },
+    {
+      "id": "d1",
+      "categoryId": "drinks",
+      "name": "Морс Клюквенный",
+      "description": "Домашний морс из свежей клюквы.",
+      "price": 120,
+      "weight": "0.5 л",
+      "image": "/images/mors.jpg",
+      "tags": [],
+      "available": true
+    }
+  ]
+}
