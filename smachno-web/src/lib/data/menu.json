@@ -1,0 +1,136 @@
+[
+  {
+    "id": "pizza",
+    "name": "Пицца",
+    "image": "https://img.freepik.com/free-photo/top-view-pepperoni-pizza-with-mushroom-sausages-bell-pepper-olive-corn-black-wooden_141793-2158.jpg",
+    "dishes": [
+      {
+        "id": "p1",
+        "name": "Пепперони",
+        "description": "Классическая пицца с пикантными колбасками пепперони и моцареллой.",
+        "price": 590,
+        "weight": "450 г",
+        "image": "https://img.freepik.com/free-photo/pepperoni-pizza-with-sausages-cheese-dark-wooden-table_220768-9277.jpg",
+        "tags": ["Хит", "Острое"],
+        "available": true,
+        "modifiers": {
+          "size": { "S": 0, "M": 100, "L": 200 },
+          "add_cheese": 50,
+          "add_sauce": 30
+        }
+      },
+      {
+        "id": "p2",
+        "name": "Маргарита",
+        "description": "Томатный соус, моцарелла, свежий базилик.",
+        "price": 450,
+        "weight": "400 г",
+        "image": "https://img.freepik.com/free-photo/pizza-margherita-with-tomatoes-basil-dark-wooden-table_220768-9299.jpg",
+        "tags": ["Веган"],
+        "available": true,
+        "modifiers": {
+          "size": { "S": 0, "M": 100, "L": 200 },
+          "add_cheese": 50
+        }
+      }
+    ]
+  },
+  {
+    "id": "sushi",
+    "name": "Роллы",
+    "image": "https://img.freepik.com/free-photo/set-sushi-rolls-with-salmon-avocado-cucumber-side-view_141793-2895.jpg",
+    "dishes": [
+      {
+        "id": "r1",
+        "name": "Филадельфия",
+        "description": "Лосось, сливочный сыр, огурец, авокадо.",
+        "price": 650,
+        "weight": "250 г",
+        "image": "https://img.freepik.com/free-photo/sushi-roll-philadelphia-with-salmon-cream-cheese-avocado-cucumber-isolated-white-background_123827-20076.jpg",
+        "tags": ["Хит"],
+        "available": true
+      },
+      {
+        "id": "r2",
+        "name": "Калифорния",
+        "description": "Краб, авокадо, огурец, икра тобико.",
+        "price": 580,
+        "weight": "230 г",
+        "image": "https://img.freepik.com/free-photo/california-sushi-roll-with-crab-meat-avocado-cucumber-inside-out-roll-with-tobiko-caviar_123827-20165.jpg",
+        "tags": [],
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "burgers",
+    "name": "Бургеры",
+    "image": "https://img.freepik.com/free-photo/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.jpg",
+    "dishes": [
+      {
+        "id": "b1",
+        "name": "Чизбургер",
+        "description": "Сочная котлета из говядины, сыр чеддер, маринованные огурцы.",
+        "price": 390,
+        "weight": "300 г",
+        "image": "https://img.freepik.com/free-photo/front-view-burger-stand_141793-15542.jpg",
+        "tags": ["Хит"],
+        "available": true,
+        "modifiers": {
+           "spicy_level": [0, 1, 2, 3]
+        }
+      }
+    ]
+  },
+  {
+    "id": "soups",
+    "name": "Супы",
+    "image": "https://img.freepik.com/free-photo/bowl-noodle-soup-with-beef-vegetables_140725-6302.jpg",
+    "dishes": [
+      {
+        "id": "s1",
+        "name": "Том Ям",
+        "description": "Тайский суп с креветками на кокосовом молоке.",
+        "price": 490,
+        "weight": "350 мл",
+        "image": "https://img.freepik.com/free-photo/tom-yam-kung-spicy-thai-soup-with-shrimp-seafood-coconut-milk-chili-pepper_2829-19706.jpg",
+        "tags": ["Острое"],
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "salads",
+    "name": "Салаты",
+    "image": "https://img.freepik.com/free-photo/greek-salad-with-fresh-vegetables-feta-cheese-black-olives_2829-6373.jpg",
+    "dishes": [
+      {
+        "id": "sl1",
+        "name": "Цезарь с курицей",
+        "description": "Классический салат с соусом цезарь, сухариками и пармезаном.",
+        "price": 420,
+        "weight": "220 г",
+        "image": "https://img.freepik.com/free-photo/caesar-salad-with-chicken-croutons-parmesan-cheese-white-plate_2829-19717.jpg",
+        "tags": [],
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "drinks",
+    "name": "Напитки",
+    "image": "https://img.freepik.com/free-photo/cola-glass-with-ice-cubes_140725-674.jpg",
+    "dishes": [
+      {
+        "id": "d1",
+        "name": "Кола",
+        "description": "Освежающий газированный напиток.",
+        "price": 120,
+        "weight": "0.5 л",
+        "image": "https://img.freepik.com/free-photo/cola-glass-with-ice-cubes_140725-674.jpg",
+        "tags": [],
+        "available": true
+      }
+    ]
+  }
+]
